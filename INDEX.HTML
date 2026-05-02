@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUEDENT REGISTRATION FROM</title>
+</head>
+<body>
+    <h1>STUDENT REGISTRATION FORM</h1>
+    <form >
+        <fieldset>
+            <legend>PERSONAL DETAILS</legend>
+            <label for="name">NAME</label><br>
+            <input type="text" placeholder="ENTER YOUR NAME" id="name"><br><br>
+            <label for="contact">CONTACT</label><br>
+            <input type="text" placeholder="ENTER YOU CONTACT" id="contact"><br><br>
+            <label for="age">AGE</label><br>
+            <input type="text" placeholder="ENTER YOU AGE" id="age"><br><br>
+            <label for="gender">GENDER</label><br>
+            <select  id="gender">
+                <option value="MALE">MALE</option>
+                <option value="FEMALE">FEMALE</option>
+            </select>
+
+        </fieldset><br><br>
+        <FIEldset>
+            <legend>ADRESS DETAILS</legend>
+            <label for="permenantadress">PERMENANT ADRESS</label><br>
+            <input type="text" placeholder="ENTER YOUR PERMENAT ADRESS" id="permenantadress"><br><br>
+            <label for="temporaryadress">TEMPORARY ADRESS</label><br>
+            <input type="text" placeholder="ENTER YOUR TEMPORARY ADRESS" id="temporaryadress"><br><br>
+            <label for="city">CITY</label><br>
+            <select  id="city">
+                <option value="SRINAGER">SRINAGER</option>
+                <option value="GANDERBAL">GANDERBAL</option>
+                <option value="PULWAMA">PULWAMA</option>
+                <option value="KULGAM">KULGAM</option>
+            </select>
+        </FIEldset><br><br>
+        <fieldset>
+            <legend>COURSE DETAILS</legend>
+            <label for="courses">COURSES</label><br>
+            <select  id="courses">
+                <option value="frontend">FRONTEND</option>
+                <option value="backend">BACKEND</option>
+                <option value="database">DATABASE</option>
+            </select><br><br>
+            <label for="time">COURSE DURATION</label><br>
+            <select id="time">
+                <option value="oneyear">1 YEAR</option>
+                <option value="twoyear">2 YEAR</option>
+                <option value="threeyear">3 YEAR</option>
+                <option value="fouryear">4 YEAR</option>
+                <option value="fiveyear">5 YEAR</option>
+            </select><br>
+        </fieldset><br><br>
+        <label for="file">SUBMIT YOUR DOCUMENTS</label><br>
+        <input type="file" id="file">
+        <button type="submit" >SUBMIT</button>
+        
+    </form>
+
+</body>
+</html>
